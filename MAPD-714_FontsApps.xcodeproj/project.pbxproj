@@ -12,6 +12,9 @@
 		E7EEF2BD219E573F003259AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEF2BB219E573F003259AC /* Main.storyboard */; };
 		E7EEF2BF219E5741003259AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EEF2BE219E5741003259AC /* Assets.xcassets */; };
 		E7EEF2C2219E5742003259AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEF2C0219E5742003259AC /* LaunchScreen.storyboard */; };
+		E7EEF2CA219E65D8003259AC /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEF2C9219E65D8003259AC /* FavoritesList.swift */; };
+		E7EEF2CC219F81F8003259AC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEF2CB219F81F8003259AC /* RootViewController.swift */; };
+		E7EEF2CE219FA406003259AC /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEF2CD219FA406003259AC /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E7EEF2BE219E5741003259AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7EEF2C1219E5742003259AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7EEF2C3219E5742003259AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EEF2C9219E65D8003259AC /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		E7EEF2CB219F81F8003259AC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E7EEF2CD219FA406003259AC /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				E7EEF2BE219E5741003259AC /* Assets.xcassets */,
 				E7EEF2C0219E5742003259AC /* LaunchScreen.storyboard */,
 				E7EEF2C3219E5742003259AC /* Info.plist */,
+				E7EEF2C9219E65D8003259AC /* FavoritesList.swift */,
+				E7EEF2CB219F81F8003259AC /* RootViewController.swift */,
+				E7EEF2CD219FA406003259AC /* FontListViewController.swift */,
 			);
 			path = "MAPD-714_FontsApps";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EEF2CA219E65D8003259AC /* FavoritesList.swift in Sources */,
 				E7EEF2BA219E573F003259AC /* ViewController.swift in Sources */,
+				E7EEF2CE219FA406003259AC /* FontListViewController.swift in Sources */,
+				E7EEF2CC219F81F8003259AC /* RootViewController.swift in Sources */,
 				E7EEF2B8219E573F003259AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
